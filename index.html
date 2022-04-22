@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moon theme | welcome</title>
+    <link rel="shortcut icon" href="assets/moon-vector-png-3.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <h1 style="color: antiquewhite; margin-left: 35px;">Moon theme</h1>
+        <hr style="color: antiquewhite;">
+        <a href="#">Home</a>
+        <a href="#">Facts</a>
+        <a href="#">Other</a>
+      </div>
+      <div class="pointer" style="margin-top: 50px;">
+      <span style="font-size:30px;cursor:pointer; color: #7EC8E3; margin-left: 20px;" onclick="openNav()" ><i class="fa-solid fa-arrow-right"></i></span>
+    </div>
+    <div class="card-welcome">
+   <h1 style="color: #7EC8E3; margin-left: 20px;">Welcome to moon facts!</h1>
+    </div>
+    <div class="card-fact">
+        <h1 style="color: #7EC8E3; margin-left: 20px;">Moon theme is to inspire those who want to explore a bit of information about the moon. 
+            </h1>
+            <p style="color: #7EC8E3; margin-left: 20px; font-size: 30px;">Here is a fact you guys might not know:
+                The Moon is Earth's only proper natural satellite</p>
+         </div>
+      <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+      </script>
+      <script src="https://kit.fontawesome.com/31778849f3.js" crossorigin="anonymous"></script>
+</body>
+</html>
